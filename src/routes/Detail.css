@@ -1,0 +1,38 @@
+.movie-detail__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    height: 80%;
+}
+.movie-detail__info{
+    max-width: 600px;
+    margin-left: 50px;
+}
+.movie-detail__year{
+    color: #697b8d;
+}
+.movie-detail__genres{
+    color: #9e9e9e;
+    overflow: hidden;
+    padding: 0;
+}
+.movie-detail__genres li{
+    list-style: none;
+    float: left;
+    margin-right: 10px;
+}
+
+.movie-detail__summary{
+    text-align: justify;
+}
+
+@media screen and (max-width:650px){
+    .movie-detail__container{
+        flex-direction: column;
+        height: 100%;
+    }
+    .movie-detail__info{
+        margin-left: 0;
+    }
+}
