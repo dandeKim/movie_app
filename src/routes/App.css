@@ -1,0 +1,11 @@
+.container{
+    margin-top: 50px;
+}
+
+.about__container{
+    padding: 50px;
+    text-align: center;
+}
+.about__container h2{
+    margin:0;
+}
